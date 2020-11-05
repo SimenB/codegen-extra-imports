@@ -1,0 +1,14 @@
+fragment AnnotationItem on Annotation {
+  id
+}
+
+fragment ReceiptItem on Receipt {
+  id
+}
+
+fragment EventItem on Event {
+  id
+  receipts {
+    ...ReceiptItem
+  }
+}

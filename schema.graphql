@@ -1,0 +1,23 @@
+schema {
+  query: Query
+}
+
+type Query {
+  event: Event
+  receipt: Receipt
+  receipts: [Receipt!]!
+}
+
+type Event {
+  id: ID!
+  annotation: Annotation
+  receipts: [Receipt!]!
+}
+
+type Annotation {
+  id: ID!
+}
+
+type Receipt {
+  id: ID!
+}

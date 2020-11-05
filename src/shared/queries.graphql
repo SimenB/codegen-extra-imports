@@ -1,0 +1,3 @@
+fragment ExpandableEventItem on Event {
+  ...EventItem
+}

@@ -1,0 +1,11 @@
+query GetEvent {
+  event {
+    ...EventItem
+  }
+}
+
+#query GetReceipts {
+#  receipts {
+#    ...ReceiptItem
+#  }
+#}

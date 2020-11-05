@@ -1,0 +1,15 @@
+{
+  "name": "codegen-extra-imports",
+  "scripts": {
+    "generate-types": "graphql-codegen"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.19.1",
+    "@graphql-codegen/near-operation-file-preset": "^1.17.12",
+    "@graphql-codegen/typescript": "^1.17.11",
+    "@graphql-codegen/typescript-operations": "^1.17.9",
+    "graphql": "^15.4.0",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.5"
+  }
+}
