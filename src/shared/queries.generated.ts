@@ -1,5 +1,4 @@
 import { EventItemFragment } from '../common-queries.generated';
-export type ExpandableEventItemFragment = (
-  { __typename?: 'Event' }
-  & EventItemFragment
-);
+export type ExpandableEventItemFragment = {
+  __typename?: 'Event';
+} & EventItemFragment;
